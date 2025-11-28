@@ -6,6 +6,8 @@ export default defineConfig({
   build: {
     outDir: 'dist',
   },
-  // Ensure env vars are loaded
+  define: {
+    'process.env.API_KEY': 'import.meta.env.VITE_API_KEY'
+  },
   envPrefix: 'VITE_',
 });
