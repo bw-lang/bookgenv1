@@ -1,0 +1,5 @@
+{
+  "name": "BOOKGEN 1.0",
+  "description": "Um SaaS que gera livros completos em PDF (capa, índice e conteúdo) a partir de um título e contexto usando Gemini.",
+  "requestFramePermissions": []
+}
